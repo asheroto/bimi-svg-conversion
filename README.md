@@ -1,9 +1,9 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/asheroto)
 # Converting images to BIMI accepted format
 
-The BIMI check/verification websites kept complaining that my SVG didn't pass the specification.
+The BIMI check/validation websites kept complaining that my SVG didn't pass the specification.
 
-I tried using a few sites to convert the image, but it still failed the verification regardless.
+I tried using a few sites to convert the image, but it still failed the validation regardless.
 
 Here's how I ended up getting it to work.
 
@@ -17,6 +17,12 @@ Here's how I ended up getting it to work.
 **Then** just launch `SvgTinyToSvgTinyPS.exe` as it is a GUI application. Specify the SVG and final SVG name, specify the title (usually company or website name) and click Generate!
 
 😎
+
+# Validate BIMI record and SVG image
+
+Man I love MXTOOLBOX.
+
+[https://mxtoolbox.com/bimi.aspx](https://mxtoolbox.com/bimi.aspx)
 
 ## Sources
 
