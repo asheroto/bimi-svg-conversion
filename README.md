@@ -18,7 +18,13 @@ Here's how I ended up getting it to work.
 
 😎
 
-# Validate BIMI record and SVG image
+![png2svg.exe example](https://i.imgur.com/vpXjTFw.png)
+
+![SvgTinyToSvgTinyPS.exe](https://i.imgur.com/RdYcsWA.png)
+
+![MXTOOLBOX BIMI Validation](https://i.imgur.com/SXxnRnU.png)
+
+## Validate BIMI record and SVG image
 
 Man I love MXTOOLBOX.
 
