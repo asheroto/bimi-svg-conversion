@@ -20,7 +20,7 @@ The DNS record is a TXT record on the root. At most DNS providers, you just spec
 
 `v=BIMI1;l=https://yourdomain.com/img/bimi_icon.svg;`
 
-A valid DMARC record is required as well. As an example, here is a valid DMARC record:U
+A valid DMARC record is required as well. As an example, here is a valid DMARC record:
 
 `v=DMARC1; p=quarantine; rua=mailto:security@yourdomain.com; ruf=mailto:security@yourdomain.com; sp=none; fo=1;`
 
