@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/asheroto)
 # Converting images to BIMI accepted format
 
 The BIMI check/verification websites kept complaining that my SVG didn't pass the specification.
