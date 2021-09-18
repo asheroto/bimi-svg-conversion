@@ -16,6 +16,10 @@ Here's how I ended up getting it to work.
 
 **Then** just launch `SvgTinyToSvgTinyPS.exe` as it is a GUI application. Specify the SVG and final SVG name, specify the title (usually company or website name) and click Generate!
 
+The DNS record is a TXT record on the root. At most DNS providers, you just specify `@` for the record name and the following for the value, changing the path of the SVG file as needed.
+
+`v=BIMI1;l=https://yourdomain.com/img/bimi_icon.svg;`
+
 😎
 
 ![png2svg.exe example](https://i.imgur.com/vpXjTFw.png)
