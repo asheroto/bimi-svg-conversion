@@ -9,6 +9,8 @@ I tried using a few sites to convert the image, but it still failed the validati
 
 Here's how I ended up getting it to work.
 
+Your image needs to be the same number of pixels in height and width. For example, 500x500. Otherwise it is not a valid BIMI image.
+
 **First, download these two binaries:**
 - [png2svg.exe](https://github.com/asheroto/bimi-svg-conversion/releases/latest/download/png2svg.exe)
 - [SvgTinyToSvgTinyPS.exe](https://github.com/asheroto/bimi-svg-conversion/releases/latest/download/SvgTinyToSvgTinyPS.exe)
