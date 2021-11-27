@@ -1,6 +1,8 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/asheroto)
 # Converting images to BIMI accepted format
 
+This repo contains tools and instructions to create a valid BIMI SVG file using Windows.
+
 The BIMI check/validation websites kept complaining that my SVG didn't pass the specification.
 
 I tried using a few sites to convert the image, but it still failed the validation regardless.
@@ -16,13 +18,17 @@ Here's how I ended up getting it to work.
 
 **Then** just launch `SvgTinyToSvgTinyPS.exe` as it is a GUI application. Specify the SVG and final SVG name, specify the title (usually company or website name) and click Generate!
 
+## DNS Records
+
 The DNS record is a TXT record on the root. At most DNS providers, you just specify `@` for the record name and the following for the value, changing the path of the SVG file as needed.
 
-`v=BIMI1;l=https://yourdomain.com/img/bimi_icon.svg;`
+Name: `default._bimi`
+Value: `v=BIMI1;l=https://yourdomain.com/img/bimi_icon.svg;`
 
-A valid DMARC record is required as well. As an example, here is a valid DMARC record:
+A valid DMARC record is required as well. As an example, here is a valid record:
 
-`v=DMARC1; p=quarantine; rua=mailto:security@yourdomain.com; ruf=mailto:security@yourdomain.com; sp=none; fo=1;`
+Name: `@`
+Value: `v=DMARC1; p=quarantine; rua=mailto:security@yourdomain.com; ruf=mailto:security@yourdomain.com; sp=none; fo=1;`
 
 😎
 
