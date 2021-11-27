@@ -23,7 +23,7 @@ Here's how I ended up getting it to work.
 The DNS record is a TXT record on the root. At most DNS providers, you just specify `@` for the record name and the following for the value, changing the path of the SVG file as needed.
 
 Name: `default._bimi`
-Value: `v=BIMI1;l=https://yourdomain.com/img/bimi_icon.svg;`
+Value: `v=BIMI1; l=https://yourdomain.com/img/bimi_icon.svg; a=;`
 
 A valid DMARC record is required as well. As an example, here is a valid record:
 
